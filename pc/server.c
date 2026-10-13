@@ -4,7 +4,7 @@
 #include <winsock2.h>
 #include <ws2tcpip.h>
 
-#define PORT 9090
+#include "protocol.h"
 
 static int init_winsock(void);
 static SOCKET create_listen_socket(void);
